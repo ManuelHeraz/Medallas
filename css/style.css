@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth; 
+  }
+
 :root{
     ---bg-color: #fff;
     ---i-color1: #888;
@@ -11,11 +15,7 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: 
-        url(https://wallpapercave.com/wp/wp3210622.jpg)
-        no-repeat center    
-    ;
-    background-size:cover;
+    background: var(---l-color1);
     color: var(---bg-color);
 }
 
@@ -34,7 +34,7 @@ span{
     color: var(---i-color1);
 }
 
-.container{
+.container-header{
     margin: 0 auto;
     padding: 0 2em;
     display: flex;
@@ -43,9 +43,10 @@ span{
     flex-direction: column;
     min-height: 100vh;
     position: relative;
+    
 }
 
-.container::before{
+.container-header::before{
     content: "";
     position: absolute;
     top: 0;
@@ -56,7 +57,7 @@ span{
     z-index: -1;
 }
 
-.btn{
+.btn-header{
     background: var(---i-color2);
     border: none;
     padding: 0.7em 1.8em;
@@ -65,13 +66,14 @@ span{
     transition: 0.3s;
 }
 
-.btn:hover{
+.btn-header:hover{
     background: var(---i-color3);
 }
 
 .header-body{
     text-align: center;
     margin: 3em 0;
+    margin-top: 100px;
 }
 
 .header-body h1{

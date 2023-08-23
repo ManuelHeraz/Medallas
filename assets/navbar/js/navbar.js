@@ -11,11 +11,11 @@ const navTemplate = `
       <ul class="mega-menuN">
       
         <li class="linkN">
-          <a href="#inicio">Inicio</a> 
+          <a href="https://manuelheraz.github.io/MarinaGaming/">Inicio</a> 
         </li>
         
         <li class="linkN">
-         <a href="#">Sobre nosotros</a>
+         <a href="https://manuelheraz.github.io/MarinaGaming/">Sobre nosotros</a>
         </li>
 
         <li class="dropdown">
@@ -26,10 +26,10 @@ const navTemplate = `
         
           <ul class="menuN">
             <li class="linkN">
-              <a href="#">Lista de Medallas</a>
+              <a href="/pages/listaMedallas/lista.html#lista">Lista de Medallas</a>
             </li>
             <li class="linkN">
-              <a href="#">Cuadro de condecoraciones</a> 
+              <a href="/pages/cuadroCondecoraciones/cuadro.html">Cuadro de condecoraciones</a> 
             </li>
           </ul>
         </li>
