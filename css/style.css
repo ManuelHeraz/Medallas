@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    ---bg-color: #fff;
+    ---i-color1: #888;
+    ---i-color2: #286ef1;
+    ---i-color3: #2260d4;
+    ---i-color4: #333;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: 
+        url(https://wallpapercave.com/wp/wp3210622.jpg)
+        no-repeat center    
+    ;
+    background-size:cover;
+    color: var(---bg-color);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    max-width: 25em;
+    line-height: 28px;
+}
+
+span{
+    color: var(---i-color1);
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.btn{
+    background: var(---i-color2);
+    border: none;
+    padding: 0.7em 1.8em;
+    border-radius: 3em;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: var(---i-color3);
+}
+
+.header-body{
+    text-align: center;
+    margin: 3em 0;
+}
+
+.header-body h1{
+    font-size: 3em;
+}
+
+.header-body p {
+    margin: 1em auto 2em auto;
+}
+
+.panels,
+.bottom-heading,
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom{
+    width: 100%;
+}
+
+.link{
+    text-decoration: underline ;
+}
+
+.panels{
+    margin: 2em 0;
+    gap: 2em;
+}
+
+.panel {
+    border: 1px var(---i-color4) solid;
+    border-radius: 0.5em;
+    padding: 5em;
+    transition: 0.3s;
+}
+
+.panel:hover{
+    background: var(---i-color2);
+}
+
+.panel:hover span,
+.panel:hover p{
+    color: var(---bg-color);
+}
+
+.panel-header span{
+    font-size: 0.9em;
+}
+
+.category{
+    text-transform: uppercase;
+}
+
+.panel-body{
+    margin: 1em 0;
+}
+
+.panel p{
+    color: var(---i-color1);
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+.panel-link{
+    font-weight: 600;
+}
+
+.panel-link span{
+    margin: 1em;
+    color: var(---bg-color);
+}
+
+.panel-link:hover span{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+    .header-body{
+        margin-top: 40%;
+    }
+    .panels, .bottom-heading{
+        flex-direction: column;
+    }
+    .link{
+        margin: 1em 0;
+    }
+}
