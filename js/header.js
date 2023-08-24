@@ -34,7 +34,7 @@ const headerTemplate = `
             <p>En esta sección encontraras la lista completa de todas las condecoraciones de nuetra comundiad</p>
           </div>
         
-          <a href="/pages/listaMedallas/lista.html#lista" class="panel-link">
+          <a href="/pages/listaMedallas/index.html#lista" class="panel-link">
             <span>Click aquí para ver</span> 
             <i class="fas fa-arrow-right"></i>
           </a>
@@ -51,7 +51,7 @@ const headerTemplate = `
                   En esta sección encontraras la lista de integrantes que han sido condecorados, así como las medallas que han recibido
               </p>
           </div>
-          <a href="/pages/cuadroCondecoraciones/cuadro.html" class="panel-link">
+          <a href="/pages/cuadroCondecoraciones/index.html" class="panel-link">
               <span>Click aquí para ver</span>
               <i class="fas fa-arrow-right"></i>
           </a>
