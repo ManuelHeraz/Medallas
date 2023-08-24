@@ -26,10 +26,10 @@ const navTemplate = `
         
           <ul class="menuN">
             <li class="linkN">
-              <a href="/pages/listaMedallas/index.html#lista">Lista de Medallas</a>
+              <a href="https://manuelheraz.github.io/Medallas/pages/listaMedallas/index.html#lista">Lista de Medallas</a>
             </li>
             <li class="linkN">
-              <a href="/pages/cuadroCondecoraciones/index.html">Cuadro de condecoraciones</a> 
+              <a href="https://manuelheraz.github.io/Medallas/pages/cuadroCondecoraciones/index.html">Cuadro de condecoraciones</a> 
             </li>
           </ul>
         </li>
