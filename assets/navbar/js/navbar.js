@@ -43,13 +43,13 @@ const navTemplate = `
         </div>
         <ul class="menuN">
             <li class="linkN">
-                <a href="#">Almirantes</a>
+                <a href="https://manuelheraz.github.io/MarinaGaming/pages/almirantes/index.html">Almirantes</a>
             </li>
             <li class="linkN">
-                <a href="#">Moderadores</a>
+                <a href="https://manuelheraz.github.io/MarinaGaming/pages/moderadores/index.html">Moderadores</a>
             </li>
             <li class="linkN">
-                <a href="#">Admins</a>
+                <a href="https://manuelheraz.github.io/MarinaGaming/pages/admins/index.html">Admins</a>
             </li>
         </ul>
     </li>
