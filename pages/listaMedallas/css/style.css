@@ -6,14 +6,19 @@
     ---l-color5: #333;
 }
 
-
+.conainer-lista{
+    background: 
+    url(
+        https://th.bing.com/th/id/R.d83e2df12147f7943a3c7fbffd6c1c97?rik=mkSpBvaR5%2fs9XA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f5%2f3%2f863666-best-abstract-gaming-wallpapers-1080p-1920x1080-4k.jpg&ehk=qKm9bQISty20tvkHCCByGxSw%2fKuos9Lsa2pZXUr%2fGLk%3d&risl=&pid=ImgRaw&r=0
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .container{
     position: relative;
     width: 90%;
-    padding: 20px;
-    margin: 50px;
-    margin-top: 80px;
+    padding: 10%;
     
 }
    
