@@ -12,7 +12,7 @@ const headerTemplate = `
 
       <p>Recuerda unirte a nuestra comunidad si no estas dentro!</p>
       
-      <a href="#" class="btn-header">Discord</a>
+      <a href="https://discord.gg/XfqqrWNAhy" class="btn-header">Discord</a>
     </div>
 
     <div class="header-bottom">
