@@ -2,7 +2,6 @@ const menuBtn = document.querySelector('.menu-btn');
 const menuN = document.querySelector('.menu-containerN');
 const dropdowns = document.querySelectorAll('.dropdown > div');
 const subDropdowns = document.querySelectorAll('.sub-dropdown > div');
-const navLinks = document.querySelectorAll('nav a');
 
 let menuOpen = false; 
 

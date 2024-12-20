@@ -4,18 +4,18 @@ const navbar = document.getElementById('navbar');
 // Template del navbar
 const navTemplate = `
   <nav class="navbar">
-    <a href="#" class="brand">Marina Gaming</a>
+    <a href="https://manuelheraz.github.io/MarinaGaming/index.html#inicio" class="brand">Marina Gaming</a>
 
     <div class="menu-containerN">
 
       <ul class="mega-menuN">
       
         <li class="linkN">
-          <a href="https://manuelheraz.github.io/MarinaGaming/">Inicio</a> 
+          <a href="https://manuelheraz.github.io/MarinaGaming/index.html#inicio">Inicio</a> 
         </li>
         
         <li class="linkN">
-         <a href="https://manuelheraz.github.io/MarinaGaming/">Sobre nosotros</a>
+         <a href="https://manuelheraz.github.io/MarinaGaming/index.html#sobre">Sobre nosotros</a>
         </li>
 
         <li class="dropdown">
@@ -82,13 +82,17 @@ const navTemplate = `
         </div>
         <ul class="menuN">
             <li class="linkN">
-                <a href="#">Tienda</a>
+                <a href="https://manuelheraz.github.io/FENIXtienda/">Tienda</a>
             </li>
             <li class="linkN">
-                <a href="#">Noticiero</a>
+                <a href="https://manuelheraz.github.io/NoticiasRoleplay/">Noticiero</a>
             </li>
         </ul>
     </li>
+
+    <li class="linkN">
+    <a href="https://manuelheraz.github.io/MusicaMenuGamer/">Musica Gamer</a> 
+  </li>
 
       </ul>
 
@@ -102,7 +106,6 @@ const navTemplate = `
     </div>
 
   </nav>
-  
 `;
 
 // Renderizar el template
